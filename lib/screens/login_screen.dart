@@ -1,11 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:firebase_auth/firebase_auth.dart'; // 1. Firebase Auth eklendi
-import 'package:cloud_firestore/cloud_firestore.dart'; // 2. Firestore eklendi
-import 'register_screen.dart'; // Kayıt sayfasına geçiş için
-import '../customer_main_navigation.dart'; // Navigasyon yollarını kendi klasör yapına göre kontrol et
-import '../business_main_navigation.dart';
+import 'package:bapp1/imports.dart';
 
-class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
 
   @override
@@ -180,7 +174,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     onPressed: isLoading ? null : login,
                     style: ElevatedButton.styleFrom(
                       backgroundColor: const Color(0xFFD4AF37), // altın berber rengi
-                      disabledBackgroundColor: const Color(0xFFD4AF37).withOpacity(0.5), // Yüklenirken buton rengi solsun diye
+                      disabledBackgroundColor: const Color(0xFFD4AF37).withValues(alpha: 0.5), // Yüklenirken buton rengi solsun diye
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(12),
                       ),
@@ -221,3 +215,5 @@ class _LoginScreenState extends State<LoginScreen> {
     );
   }
 }
+
+

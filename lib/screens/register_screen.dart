@@ -1,9 +1,5 @@
-import 'package:flutter/material.dart';
-import '../services/auth_service.dart'; 
-import '../customer_main_navigation.dart';
-import '../business_main_navigation.dart';
+import 'package:bapp1/imports.dart';
 
-class RegisterScreen extends StatefulWidget {
   const RegisterScreen({super.key});
 
   @override
@@ -231,3 +227,5 @@ class _RegisterScreenState extends State<RegisterScreen> {
     );
   }
 }
+
+

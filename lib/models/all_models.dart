@@ -1,7 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:bapp1/imports.dart';
 
-//ENUM DEĞERLERİ
 enum UserType { customer, barber }
 enum ImageType { profile, gallery }
 
@@ -412,3 +410,6 @@ class ImageModel {
     };
   }
 }
+
+
+

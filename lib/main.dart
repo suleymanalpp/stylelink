@@ -1,8 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
-// Sayfalarının yollarını prorendeki klasör yapısına göre kontrol et:
-import 'package:bapp1/screens/login_screen.dart'; 
-import 'package:bapp1/screens/register_screen.dart'; 
+import 'package:bapp1/imports.dart';
 
 void main() async {
   // Flutter elementlerinin Firebase başlamadan önce hazır olmasını garanti eder
@@ -38,3 +34,5 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+

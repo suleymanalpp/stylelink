@@ -1,6 +1,5 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:bapp1/imports.dart';
 
-class FirebaseTestService {
   // Test verisini gönderecek fonksiyon
   static Future<void> gonderTestVerisi() async {
     try {
@@ -15,3 +14,5 @@ class FirebaseTestService {
     }
   }
 }
+
+

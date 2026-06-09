@@ -1,8 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'screens/login_screen.dart';
+import 'package:bapp1/imports.dart';
 
-class BusinessMainNavigation extends StatefulWidget {
   const BusinessMainNavigation({super.key});
 
   @override
@@ -67,3 +64,5 @@ class BusinessProfilePlaceholder extends StatelessWidget {
     );
   }
 }
+
+

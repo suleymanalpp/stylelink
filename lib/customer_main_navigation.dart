@@ -1,8 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'screens/login_screen.dart'; // Çıkış yapınca dönülecek ekran
+import 'package:bapp1/imports.dart';
 
-class CustomerMainNavigation extends StatefulWidget {
   const CustomerMainNavigation({super.key});
 
   @override
@@ -69,3 +66,5 @@ class CustomerProfilePlaceholder extends StatelessWidget {
     );
   }
 }
+
+
